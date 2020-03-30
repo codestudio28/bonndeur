@@ -1,0 +1,48 @@
+:root{
+    --mainBlack:#151515;
+    --Black:#000000;
+    --mainGold:#DACD3B;
+    --idleGold:#f2f18f;
+    --view:#1890FF;
+    --remove:#F5222D;
+    --edit:#52C41A;
+    --cancel:#FAAD14;
+    --retrieve:#722ED1;
+    --process:#061178;
+    --delivery:#135200;
+    --print:#13C2C2;
+    --darkGray:#BFBFBF;
+    --lightGray:#D9D9D9;
+    --idleBlack:#595959;
+}
+.menu-side{
+    background-color:var(--Black)!important;
+}
+.menu-item-solo{
+    background-color:var(--Black)!important;
+    color:var(--mainGold)!important;
+    border-right:1px solid!important;
+    border-color:#fff!important;
+}
+.menu-item-solo:hover{
+    color:var(--Black)!important;
+    background-color:var(--mainGold)!important;
+    border-right:1px solid!important;
+    border-color:#fff!important;
+}
+.submenu-item{
+    background-color:var(--Black)!important;
+    color:var(--mainGold)!important;
+}
+.submenu-item:hover{
+    color:var(--Black)!important;
+    background-color:var(--mainGold)!important;
+}
+.menu-item:hover{
+    color:var(--Black)!important;
+    background-color:var(--mainGold)!important;
+}
+.menu-item:active{
+    color:var(--Black)!important;
+    background-color:var(--mainGold)!important;
+}
